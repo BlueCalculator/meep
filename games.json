@@ -1,0 +1,62 @@
+[     
+        {
+            "title": "Zelda Minish Cap",
+            "sys": 1,
+            "dev": "gba",
+            "gam": "https://cdn.glitch.global/e80ed295-94d7-4282-84eb-cd197622b753/Legend%20of%20Zelda%2C%20The%20-%20The%20Minish%20Cap%20(USA).gba?v=1641936730936"
+        },
+        {
+            "title": "Pokemon Fire Red",
+            "sys": 1,
+            "dev": "gba",
+            "gam": "https://cdn.glitch.me/b189d138-c223-4a4a-85f8-43c7d8a03587/Pokemon%20-%20Fire%20Red%20Version%20(U)%20(V1.1).gba?v=1641245687430"
+        },
+        {
+            "title": "Pokemon Emerald Red",
+            "sys": 1,
+            "dev": "gba",
+            "gam": "https://cdn.glitch.global/e80ed295-94d7-4282-84eb-cd197622b753/Pokemon%20Randomized%20Emerald%201.gba?v=1672870296934"
+        },
+        {
+            "title": "Final Fantasy",
+            "sys": 1,
+            "dev": "gba",
+            "gam": "https://cdn.glitch.global/e80ed295-94d7-4282-84eb-cd197622b753/Final%20Fantasy%206%20Advance%20GBA.zip?v=1697763625927"
+        },
+        {
+            "title": "Kerby Dream Land",
+            "sys": 1,
+            "dev": "gba",
+            "gam": "https://cdn.glitch.global/e80ed295-94d7-4282-84eb-cd197622b753/Kirby%20-%20Nightmare%20in%20Dream%20Land%20(USA).gba?v=1641936651288"
+        },
+        {
+            "title": "Papas Hotdogeria",
+            "sys": 2,
+            "gam": "https://cdn.glitch.global/3ddca8e4-c262-4291-9fda-5ae96eb28e2b/PapasHotdoggeria.swf?v=1692580437358"
+        },
+        {
+            "title":"Mini Golf",
+            "sys": 2,
+            "gam": "https://cdn.jsdelivr.net/gh/CBGamesdev/chilibowlflash@main/miniputt.swf"
+        },
+        {
+            "title": "Hard Mairo",
+            "sys": 2,
+            "gam": "https://cdn.jsdelivr.net/gh/MrJeffFeng/Flash-Games@master/unfair_mario.swf"
+        },
+        {
+            "title": "Duck life 3",
+            "sys": 2,
+            "gam": "https://cdn.jsdelivr.net/gh/Games-From-Flash/swf@master/Duck%20Life%203%20-%20Evolution.swf"
+        },
+        {
+            "title": "Duck life 4",
+            "sys": 2,
+            "gam": "https://cdn.jsdelivr.net/gh/Games-From-Flash/swf@master/Duck%20Life%204.swf"
+        },
+        {
+            "title": "Resort Tycoon",
+            "sys": 2,
+            "gam": "https://cdn.jsdelivr.net/gh/Susorodni/swfgalaxy@master/games/impossiblequiz.swf"
+        }
+]

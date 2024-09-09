@@ -1,0 +1,259 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pixelate');
+
+* {
+    margin: 0px;
+    /* overflow-x: hidden; */
+
+}
+
+body {
+    background-color: #0d0714;
+    overflow-x: hidden;
+}
+
+.bg1 {
+    height: 0vh;
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    overflow-y: hidden;
+}
+
+.el {
+    width: 25px;
+    height: 30px;
+}
+
+svg {
+    top: 0px;
+    position: absolute;
+    height: 100vh;
+}
+
+/* .path1 {
+    stroke-dasharray: 100;
+     animation: dash 10s linear infinite; 
+  }
+  
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 800;
+    }
+  } */
+
+
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title h2 {
+  background: -webkit-linear-gradient(360deg, rgb(176, 81, 205), rgb(136, 8, 182));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title p {
+  background: -webkit-linear-gradient(360deg, rgb(205, 81, 81), rgb(182, 8, 8));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+.gcontent {
+    width: 80%;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#emugame, #flashcontainer {
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+    /* background-color: black; */
+}
+
+.sidebar h2 {
+    font-family: 'SF Pixelate Shaded', sans-serif;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.sidebar h3{
+    padding: 10px;
+    font-family: 'SF Pixelate Shaded', sans-serif;
+    color: rgb(141, 141, 141);
+    font-size: 30px;
+}
+.sidebar {
+    font-family: 'SF Pixelate', sans-serif;
+}
+
+.honda {
+    position: absolute;
+    right: -600px;
+    z-index: 10;
+}
+
+.g {
+    height: 70vh;
+    /* max-width: 200px; */
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: rgb(161, 161, 161);
+    font-size: 25px;
+    flex-direction: column;
+}
+
+.g div:hover {
+    background: -webkit-linear-gradient(360deg, rgb(208, 99, 241), rgb(112, 6, 150));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow_animation 6s ease-in-out infinite;
+    background-size: 400% 100%;
+    cursor: pointer;
+}
+
+.g div:active{
+    color: gray;
+}
+
+.g div:target{
+    color: black;
+}
+
+.g div {
+    padding: 5px;
+    transition: .2s;
+}
+
+/* .game{
+
+}
+
+.game:hover{
+    color: red;
+} */
+
+
+.active {
+    background: -webkit-linear-gradient(360deg, rgb(136, 68, 157), rgb(80, 3, 108));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow_animation 6s ease-in-out infinite;
+    background-size: 400% 100%;}
+
+
+.sidebar {
+    top: 0px;
+    position: absolute;
+    right: 0px;
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(37, 33, 33);
+}
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
+
+
+
+
+#root {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: no-repeat center/cover url('./src/img/polish-cow-polish.gif');
+}
+
+#flashBlock {
+    overflow-y: hidden;
+    display: none;
+}
+
+#progress {
+    font-size: 36px;
+    width: 100%;
+    height: 1em;
+    position: absolute;
+    bottom: 1em;
+    color: black;
+    line-height: 1em;
+    padding: 0 1em;
+    text-align: center;
+    transition: opacity 1s;
+}
+
+#text {
+    font-family: 'SF Pixelate Shaded', sans-serif;
+    width: 100%;
+    color: #bebebe;
+    mix-blend-mode: difference;
+}
+
+#line {
+    width: 0px;
+    transition: width 1s;
+    height: 100%;
+    background-color: #4a1b75;
+    margin-top: -1em;
+}
+
+.titleScreen{
+    font-size: 15px;
+    font-family: 'SF Pixelate', sans-serif;
+    cursor: not-allowed;
+    color: rgb(201, 200, 200);
+}
+
+#footer{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    font-family: 'SF Pixelate', sans-serif;
+    font-size: 100%;
+    background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 6s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
