@@ -45,10 +45,12 @@ svg {
 
 
 .title {
-  display: flex;
+    position: absolute;
+    top: 0px;
+  /* display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: column; */
 }
 
 .title h2 {
@@ -112,13 +114,14 @@ svg {
 
 .g {
     height: 70vh;
+    overflow-y: scroll;
     /* max-width: 200px; */
 
     width: 100%;
     display: flex;
     justify-content: center;
     color: rgb(161, 161, 161);
-    font-size: 25px;
+    font-size: 125%;
     flex-direction: column;
 }
 
@@ -131,18 +134,47 @@ svg {
     cursor: pointer;
 }
 
-.g div:active{
+/* .g div:active{
     color: gray;
 }
 
 .g div:target{
     color: black;
-}
+} */
 
 .g div {
     padding: 5px;
     transition: .2s;
 }
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    z-index: 30;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    /* background-repeat: no-repeat; */
+    object-fit: fill;
+    /* background-image: url(https://cdn.jsdelivr.net/gh/BlueCalculator/meep@main/Bun10.png); */
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    /* background: #888; */
+    /* background-repeat: no-repeat; */
+    /* border-radius: 10px; */
+    object-fit: fill;
+    background: url(https://cdn.jsdelivr.net/gh/BlueCalculator/meep@main/RegHotdog10.png);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    /* background: #555; */
+    /* background: url(assests/imgs/impPerson/NOTTHEQUEEN.jpeg); */
+    background: url(https://cdn.jsdelivr.net/gh/BlueCalculator/meep@main/ActiveHotdog10.png);
+  }
 
 /* .game{
 
@@ -166,6 +198,7 @@ svg {
     position: absolute;
     right: 0px;
     width: 20%;
+    max-width: 250px;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -183,9 +216,6 @@ svg {
         background-position: 100% 0;
     }
 }
-
-
-
 
 #root {
     position: relative;
@@ -246,14 +276,4 @@ svg {
     color: transparent;
     animation: rainbow_animation 6s ease-in-out infinite;
     background-size: 400% 100%;
-}
-
-@keyframes rainbow_animation {
-    0%,100% {
-        background-position: 0 0;
-    }
-
-    50% {
-        background-position: 100% 0;
-    }
 }
