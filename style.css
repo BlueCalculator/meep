@@ -7,7 +7,8 @@
 }
 
 body {
-    background-color: #0d0714;
+    /* background-color: #0a0612; */
+    background-color: #080808;
     overflow-x: hidden;
 }
 
@@ -194,6 +195,8 @@ svg {
 
 
 .sidebar {
+    /* border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem; */
     top: 0px;
     position: absolute;
     right: 0px;
@@ -204,7 +207,9 @@ svg {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(37, 33, 33);
+    /* background-color: rgb(37, 33, 33); */
+    background-color: #121212;
+
 }
 
 @keyframes rainbow_animation {
@@ -262,6 +267,8 @@ svg {
     font-family: 'SF Pixelate', sans-serif;
     cursor: not-allowed;
     color: rgb(201, 200, 200);
+    animation: rainbowGlow 3s infinite linear;
+
 }
 
 #footer{
@@ -276,4 +283,39 @@ svg {
     color: transparent;
     animation: rainbow_animation 6s ease-in-out infinite;
     background-size: 400% 100%;
+}
+
+.info{
+    font-family: 'SF Pixelate', sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: rgb(201, 200, 200);
+    align-items: center;
+}
+
+@keyframes rainbowGlow {
+    0% {
+        text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red, 
+                     0 0 40px red, 0 0 50px red, 0 0 60px red;
+    }
+    20% {
+        text-shadow: 0 0 10px orange, 0 0 20px orange, 0 0 30px orange, 
+                     0 0 40px orange, 0 0 50px orange, 0 0 60px orange;
+    }
+    40% {
+        text-shadow: 0 0 10px yellow, 0 0 20px yellow, 0 0 30px yellow, 
+                     0 0 40px yellow, 0 0 50px yellow, 0 0 60px yellow;
+    }
+    60% {
+        text-shadow: 0 0 10px green, 0 0 20px green, 0 0 30px green, 
+                     0 0 40px green, 0 0 50px green, 0 0 60px green;
+    }
+    80% {
+        text-shadow: 0 0 10px blue, 0 0 20px blue, 0 0 30px blue, 
+                     0 0 40px blue, 0 0 50px blue, 0 0 60px blue;
+    }
+    100% {
+        text-shadow: 0 0 10px violet, 0 0 20px violet, 0 0 30px violet, 
+                     0 0 40px violet, 0 0 50px violet, 0 0 60px violet;
+    }
 }
