@@ -1,0 +1,17 @@
+[     
+        {
+            "cdn": "https://cdn.jsdelivr.net/gh/BlueCalculator/meep@main/style.css"
+        },
+        {
+            "cdn": "https://cdn.jsdelivr.net/gh/BlueCalculator/meep@main/games.json"
+        },
+        {
+            "cdn": "https://cdn.jsdelivr.net/gh/BlueCalculator/meep@main/main.js"
+        },
+        {
+            "cdn": "https://cdn.jsdelivr.net/gh/BlueCalculator/meep@main/favicon.js"
+        },
+        {
+            "cdn": "https://cdn.jsdelivr.net/gh/BurritoEdition/emu@main/NIGHTLY/ruffle.js"
+        }
+]

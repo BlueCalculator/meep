@@ -35,26 +35,6 @@
             "gam": "https://cdn.glitch.global/3ddca8e4-c262-4291-9fda-5ae96eb28e2b/PapasHotdoggeria.swf?v=1692580437358"
         },
         {
-            "title": "Papas Cupcakeria",
-            "sys": 2,
-            "gam": "https://cdn.glitch.global/3ddca8e4-c262-4291-9fda-5ae96eb28e2b/papascupcakeria.swf?v=1692580427063"
-        },
-        {
-            "title": "Papas Freezaria",
-            "sys": 2,
-            "gam": "https://cdn.glitch.global/3ddca8e4-c262-4291-9fda-5ae96eb28e2b/PapasFreezeria.swf?v=1692580431021"
-        },
-        {
-            "title": "Papas Pastaria",
-            "sys": 2,
-            "gam": "https://cdn.glitch.global/3ddca8e4-c262-4291-9fda-5ae96eb28e2b/papaspastaria.swf?v=1692580450479"
-        },
-        {
-            "title": "Papas Bakeria",
-            "sys": 2,
-            "gam": "https://cdn.glitch.global/3ddca8e4-c262-4291-9fda-5ae96eb28e2b/papasbakeria.swf?v=1692580461820"
-        },
-        {
             "title":"Mini Golf",
             "sys": 2,
             "gam": "https://cdn.jsdelivr.net/gh/CBGamesdev/chilibowlflash@main/miniputt.swf"
@@ -75,8 +55,33 @@
             "gam": "https://cdn.jsdelivr.net/gh/Games-From-Flash/swf@master/Duck%20Life%204.swf"
         },
         {
-            "title": "Imposiable Quiz",
+            "title": "Resort Tycoon",
             "sys": 2,
             "gam": "https://cdn.jsdelivr.net/gh/Susorodni/swfgalaxy@master/games/impossiblequiz.swf"
+        },
+        {
+            "title": "Resort Tycoon2",
+            "sys": 2,
+            "gam": "https://cdn.jsdelivr.net/gh/Susorodni/swfgalaxy@master/games/impossiblequiz.swf"
+        },
+        {
+            "title": "Metroid Fusion",
+            "sys": 2,
+            "gam": "https://cdn.glitch.global/e80ed295-94d7-4282-84eb-cd197622b753/Metroid%20Fusion.zip?v=1641749938607"
+        },
+        {
+            "title": "Kirby the Amazing Mirror",
+            "sys": 2,
+            "gam": "https://cdn.glitch.me/b189d138-c223-4a4a-85f8-43c7d8a03587%2FKirby%20%26%20the%20Amazing%20Mirror.zip?v=1639329773340"
+        },
+        {
+            "title": "Pokemon Randomized Emerald",
+            "sys": 2,
+            "gam": "https://cdn.glitch.global/e80ed295-94d7-4282-84eb-cd197622b753/Pokemon%20Randomized%20Emerald%201.gba?v=1672870296934"
+        },
+        {
+            "title": "Mega Man Zero",
+            "sys": 2,
+            "gam": "https://cdn.glitch.global/e80ed295-94d7-4282-84eb-cd197622b753/Mega%20Man%20Zero%20(USA%2C%20Europe).gba?v=1641936258132"
         }
 ]

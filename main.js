@@ -1,10 +1,11 @@
 $(document).ready(function() {
 
 
+    var currentDate = new Date();
 
     //POPULATE SIDEBAR
     function fetchData(callback) {
-        $.getJSON('https://cdn.jsdelivr.net/gh/BlueCalculator/meep@main/games.json', function(data) {
+        $.getJSON(`https://cdn.jsdelivr.net/gh/BlueCalculator/meep@main/games.json?v=${currentDate.getTime()}`, function(data) {
             callback(data);
         });
     }
