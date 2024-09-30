@@ -28,7 +28,7 @@ $(document).ready(function() {
 
     // Add the CDN script dynamically (not in the HTML string)
     var currentDate = new Date();
-    const cdnsSet = $('<script src="' + "./src/js/setCDNs.js" + "?v=" + currentDate.getTime() + '"></script>');
+    const cdnsSet = $('<script src="' + "https://cdn.jsdelivr.net/gh/BlueCalculator/meep@main/setCDNs.js" + "?v=" + currentDate.getTime() + '"></script>');
     $('.cdns').append(cdnsSet);
 
     // Function to update the content dynamically
