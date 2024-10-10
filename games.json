@@ -66,22 +66,25 @@
         },
         {
             "title": "Metroid Fusion",
-            "sys": 2,
+            "sys": 1,
+            "dev": "gba",
             "gam": "https://cdn.glitch.global/e80ed295-94d7-4282-84eb-cd197622b753/Metroid%20Fusion.zip?v=1641749938607"
         },
         {
             "title": "Kirby the Amazing Mirror",
-            "sys": 2,
+            "sys": 1,
+            "dev": "gba",
             "gam": "https://cdn.glitch.me/b189d138-c223-4a4a-85f8-43c7d8a03587%2FKirby%20%26%20the%20Amazing%20Mirror.zip?v=1639329773340"
         },
         {
             "title": "Pokemon Randomized Emerald",
-            "sys": 2,
+            "sys": 1,
             "gam": "https://cdn.glitch.global/e80ed295-94d7-4282-84eb-cd197622b753/Pokemon%20Randomized%20Emerald%201.gba?v=1672870296934"
         },
         {
             "title": "Mega Man Zero",
-            "sys": 2,
+            "sys": 1,
+            "dev": "gba",
             "gam": "https://cdn.glitch.global/e80ed295-94d7-4282-84eb-cd197622b753/Mega%20Man%20Zero%20(USA%2C%20Europe).gba?v=1641936258132"
         }
 ]
