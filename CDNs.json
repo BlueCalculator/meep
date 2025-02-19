@@ -12,6 +12,6 @@
             "cdn": "https://cdn.jsdelivr.net/gh/BlueCalculator/meep@main/favicon.js"
         },
         {
-            "cdn": "https://cdn.jsdelivr.net/gh/BurritoEdition/emu@main/NIGHTLY/ruffle.js"
+            "cdn": "https://cdnjs.cloudflare.com/ajax/libs/ruffle-rs/0.1.0-nightly.2024.5.12/ruffle.js"
         }
 ]
