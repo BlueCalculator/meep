@@ -55,36 +55,143 @@
             "gam": "https://cdn.jsdelivr.net/gh/Games-From-Flash/swf@master/Duck%20Life%204.swf"
         },
         {
-            "title": "Resort Tycoon",
-            "sys": 2,
-            "gam": "https://cdn.jsdelivr.net/gh/Susorodni/swfgalaxy@master/games/impossiblequiz.swf"
-        },
-        {
-            "title": "Resort Tycoon2",
+            "title": "Impossible Quiz",
             "sys": 2,
             "gam": "https://cdn.jsdelivr.net/gh/Susorodni/swfgalaxy@master/games/impossiblequiz.swf"
         },
         {
             "title": "Metroid Fusion",
-            "sys": 1,
-            "dev": "gba",
+            "sys": 2,
             "gam": "https://cdn.glitch.global/e80ed295-94d7-4282-84eb-cd197622b753/Metroid%20Fusion.zip?v=1641749938607"
         },
         {
             "title": "Kirby the Amazing Mirror",
-            "sys": 1,
-            "dev": "gba",
+            "sys": 2,
             "gam": "https://cdn.glitch.me/b189d138-c223-4a4a-85f8-43c7d8a03587%2FKirby%20%26%20the%20Amazing%20Mirror.zip?v=1639329773340"
         },
         {
             "title": "Pokemon Randomized Emerald",
-            "sys": 1,
+            "sys": 2,
             "gam": "https://cdn.glitch.global/e80ed295-94d7-4282-84eb-cd197622b753/Pokemon%20Randomized%20Emerald%201.gba?v=1672870296934"
         },
         {
             "title": "Mega Man Zero",
-            "sys": 1,
-            "dev": "gba",
+            "sys": 2,
             "gam": "https://cdn.glitch.global/e80ed295-94d7-4282-84eb-cd197622b753/Mega%20Man%20Zero%20(USA%2C%20Europe).gba?v=1641936258132"
+        },
+        {
+            "title": "Bloons Tower Defence 5",
+            "sys": 2,
+            "gam": "https://cdn.jsdelivr.net/gh/ciscoHA/unblocked-list@main/bloons-tower-defense-5.swf"
+        },
+        {
+            "title": "Bloons Tower Defence 4",
+            "sys": 2,
+            "gam": "https://cdn.jsdelivr.net/gh/ciscoHA/unblocked-list@main/bloons-td-4.swf"
+        },
+        {
+            "title": "Bloons Tower Defence 3",
+            "sys": 2,
+            "gam": "https://cdn.jsdelivr.net/gh/ciscoHA/unblocked-list@main/bloons-td-3.swf"
+        },
+        {
+            "title": "Bloons Tower Defence 2",
+            "sys": 2,
+            "gam": "https://cdn.jsdelivr.net/gh/ciscoHA/unblocked-list@main/bloons-td-2.swf"
+        },
+        {
+            "title": "Bloons Tower Defence",
+            "sys": 2,
+            "gam": "https://cdn.jsdelivr.net/gh/ciscoHA/unblocked-list@main/bloons-td.swf"
+        },
+        {
+            "title": "Breaking The Bank",
+            "sys": 2,
+            "gam": "https://cdn.jsdelivr.net/gh/ciscoHA/unblocked-list@main/breaking-the-bank.swf"
+        },
+        {
+            "title": "Douchebag Life",
+            "sys": 2,
+            "gam": "https://cdn.jsdelivr.net/gh/ciscoHA/unblocked-list@main/douchebag-life.swf"
+        },
+        {
+            "title": "Douchebag workout",
+            "sys": 2,
+            "gam": "https://cdn.jsdelivr.net/gh/ciscoHA/unblocked-list@main/douchebag-workout.swf"
+        },
+        {
+            "title": "Escaping the Prison",
+            "sys": 2,
+            "gam": "https://cdn.jsdelivr.net/gh/ciscoHA/unblocked-list@main/escaping-the-prison.swf"
+        },
+        {
+            "title": "Jacksmith",
+            "sys": 2,
+            "gam": "https://cdn.jsdelivr.net/gh/ciscoHA/unblocked-list@main/jacksmith.swf"
+        },
+        {
+            "title": "Learn To Fly 2",
+            "sys": 2,
+            "gam": "https://cdn.jsdelivr.net/gh/ciscoHA/unblocked-list@main/learn-to-fly-2.swf"
+        },
+        {
+            "title": "Learn To Fly 3",
+            "sys": 2,
+            "gam": "https://cdn.jsdelivr.net/gh/ciscoHA/unblocked-list@main/learn-to-fly-3.swf"
+        },
+        {
+            "title": "Learn To Fly",
+            "sys": 2,
+            "gam": "https://cdn.jsdelivr.net/gh/ciscoHA/unblocked-list@main/learn-to-fly.swf"
+        },
+        {
+            "title": "Papa Cheeseria",
+            "sys": 2,
+            "gam": "https://cdn.jsdelivr.net/gh/ciscoHA/unblocked-list@main/papas-cheeseria.swf"
+        },
+        {
+            "title": "Papa Donuteria",
+            "sys": 2,
+            "gam": "https://cdn.jsdelivr.net/gh/ciscoHA/unblocked-list@main/papas-donuteria.swf"
+        },
+        {
+            "title": "Papa Freezeria",
+            "sys": 2,
+            "gam": "https://cdn.jsdelivr.net/gh/ciscoHA/unblocked-list@main/papas-freezeria.swf"
+        },
+        {
+            "title": "Papa Pancakeria",
+            "sys": 2,
+            "gam": "https://cdn.jsdelivr.net/gh/ciscoHA/unblocked-list@main/papas-pancakeria.swf"
+        },
+        {
+            "title": "Papa Pizzeria",
+            "sys": 2,
+            "gam": "https://cdn.jsdelivr.net/gh/ciscoHA/unblocked-list@main/papas-pizzeria.swf"
+        },
+        {
+            "title": "Papa Scooperia",
+            "sys": 2,
+            "gam": "https://cdn.jsdelivr.net/gh/ciscoHA/unblocked-list@main/papas-scooperia.swf"
+        },
+        {
+            "title": "Papa Sushiria",
+            "sys": 2,
+            "gam": "https://cdn.jsdelivr.net/gh/ciscoHA/unblocked-list@main/papas-sushiria.swf"
+        },
+        {
+            "title": "Snail Bob",
+            "sys": 2,
+            "gam": "https://cdn.jsdelivr.net/gh/ciscoHA/unblocked-list@main/snailbob.swf"
+        },
+        {
+            "title": "Binding Of Issac",
+            "sys": 2,
+            "gam": "https://cdn.jsdelivr.net/gh/ciscoHA/unblocked-list@main/the-binding-of-isaac.swf"
+        },
+        {
+            "title": "This is The only Level",
+            "sys": 2,
+            "gam": "https://cdn.jsdelivr.net/gh/ciscoHA/unblocked-list@main/this-is-the-only-level.swf"
         }
 ]
