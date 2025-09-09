@@ -56,12 +56,13 @@ $(document).ready(function() {
     //GAME SELECTOR
 
     function updateGameContainer(item) {
-        if (item.sys === 1) {
+        if (item.sys == 1) { // == allows "1" to match 1
             updateGBAGame(item.gam);
-        } else if (item.sys === 2) {
+        } else if (item.sys == 2) {
             updateFlashGame(item.gam);
         }
     }
+
 
     function updateGBAGame(gameUrl) {
         $("div.container").empty();
@@ -94,7 +95,7 @@ $(document).ready(function() {
     "letterbox": "fullscreen",
     "warnOnUnsupportedContent": false,
     "contextMenu": true,
-    "showSwfDownload": treu,
+    "showSwfDownload": true,
     "upgradeToHttps": window.location.protocol === "https:",
     "maxExecutionDuration": {"secs": 15, "nanos": 0},
     "logLevel": "error",
