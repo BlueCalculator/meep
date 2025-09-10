@@ -56,7 +56,8 @@ $(document).ready(function() {
     //GAME SELECTOR
 
     function updateGameContainer(item) {
-        if (item.sys == 1) { // == allows "1" to match 1
+        console.log("updateGameContainer got:", item);
+        if (item.sys == 1) {
             updateGBAGame(item.gam);
         } else if (item.sys == 2) {
             updateFlashGame(item.gam);
