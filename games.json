@@ -5,60 +5,6 @@
             "dev": "gba",
             "gam": ""
         },
-                {
-            "title": "filler",
-            "sys": 1,
-            "dev": "gba",
-            "gam": ""
-        },
-                {
-            "title": "filler",
-            "sys": 1,
-            "dev": "gba",
-            "gam": ""
-        },
-                {
-            "title": "filler",
-            "sys": 1,
-            "dev": "gba",
-            "gam": ""
-        },
-                {
-            "title": "filler",
-            "sys": 1,
-            "dev": "gba",
-            "gam": ""
-        },
-                {
-            "title": "filler",
-            "sys": 1,
-            "dev": "gba",
-            "gam": ""
-        },
-                {
-            "title": "filler",
-            "sys": 1,
-            "dev": "gba",
-            "gam": ""
-        },
-                {
-            "title": "filler",
-            "sys": 1,
-            "dev": "gba",
-            "gam": ""
-        },
-                {
-            "title": "filler",
-            "sys": 1,
-            "dev": "gba",
-            "gam": ""
-        },
-                {
-            "title": "filler",
-            "sys": 1,
-            "dev": "gba",
-            "gam": ""
-        },
         {
             "title": "Zelda Minish Cap",
             "sys": 1,
@@ -130,4 +76,5 @@
             "gam": "https://cdn.glitch.global/3ddca8e4-c262-4291-9fda-5ae96eb28e2b/papaspastaria.swf?v=1692580450479"
         }
 ]
+
 
